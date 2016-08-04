@@ -1,9 +1,61 @@
 /* HEADER */
 header ul li {
 	display: inline-block;
-	text-align: center;
+}
+
+header li {
+	margin-right: 49px; 
 }
 
 /* SECTION */
 
-section 
+#fondo-1 {
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 0px;
+}
+
+.col-offset-4 {
+	position: relative;
+	left: 33.3333333333%;
+	padding-top: 7%;
+	padding-bottom: 7%;
+}
+
+h2, h3 {
+	color: #FFFFFF;
+}
+
+#fondo-2 {
+	background-image: url("../images/tile1.png");
+	background-repeat: repeat;
+	background-position: center;
+	margin-top: 0px;
+}
+
+.square {
+	border: 1px solid #000000;
+	padding: 3px;
+	
+}
+
+h4, h5 {
+	text-align: center;
+	color: #8F03E3;
+}
+
+#kittens img {
+	border: 2px solid #AD48EA;
+	border-radius: 50%;
+	padding: 3px;
+}
+
+
+/* FOOTER */
+
+footer {
+	background-image: url("../images/tile2.png");
+	background-repeat: repeat;
+	background-position: center;
+}
