@@ -13,7 +13,7 @@ header li {
 	background-image: url("../images/background.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	margin-bottom: 0px;
+	margin-bottom: 0;
 }
 
 .col-offset-4 {
@@ -31,13 +31,15 @@ h2, h3 {
 	background-image: url("../images/tile1.png");
 	background-repeat: repeat;
 	background-position: center;
-	margin-top: 0px;
+	margin-top: 0;
 }
 
 .square {
 	border: 1px solid #000000;
 	padding: 3px;
-	
+	width: 70%;
+	float: right;
+    margin-top: inherit;
 }
 
 h4, h5 {
@@ -45,10 +47,16 @@ h4, h5 {
 	color: #8F03E3;
 }
 
+#fondo-2 p {
+	font-size: .9em;
+	margin-top: 0;
+}
+
 #kittens img {
 	border: 2px solid #AD48EA;
 	border-radius: 50%;
-	padding: 3px;
+	padding: 2%;
+	width: 100%;
 }
 
 
@@ -58,4 +66,9 @@ footer {
 	background-image: url("../images/tile2.png");
 	background-repeat: repeat;
 	background-position: center;
+}
+
+footer img {
+	margin-left: 4%;
+    margin-right: 4%;
 }
